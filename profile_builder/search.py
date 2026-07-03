@@ -6,9 +6,6 @@ WIKI_SEARCH_URL = "https://en.wikipedia.org/w/api.php"
 
 
 def find_wikipedia_title(name: str) -> str | None:
-    # Wikipedia's summary endpoint needs an exact article title, and people
-    # rarely type the exact title, so search first to resolve "satya nadella"
-    # -> "Satya Nadella" (or handle typos/nicknames).
     params = {
         "action": "query",
         "list": "search",
@@ -41,7 +38,6 @@ def get_wikipedia_summary(name: str) -> dict | None:
     except requests.RequestException:
         return None
 
-    # disambiguation pages (e.g. searching a common name) aren't useful here
     if data.get("type") == "disambiguation":
         return None
 
@@ -58,9 +54,6 @@ def web_search(query: str, max_results: int = 5) -> list[dict]:
         with DDGS() as ddgs:
             return list(ddgs.text(query, max_results=max_results))
     except Exception:
-        # ddgs occasionally rate-limits or times out. Rather than let one
-        # bad query kill the whole run, just skip it — the profile will
-        # have fewer sources for that particular field, that's it.
         return []
 
 
@@ -79,9 +72,6 @@ def gather_sources(name: str, context: str) -> list[dict]:
     wiki = get_wikipedia_summary(name)
     if wiki:
         add(wiki["title"], wiki["url"], wiki["extract"] or "")
-
-    # these four cover most of what the assignment template asks for —
-    # wikipedia alone almost never has net worth or anything recent
     queries = [
         f"{name} {context} biography",
         f"{name} net worth",
