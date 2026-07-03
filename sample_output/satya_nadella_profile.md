@@ -1,58 +1,60 @@
 # Satya Nadella
-_CEO of Microsoft_
+_Python_
 
 ## Executive Summary
-Satya Nadella is an Indian-born business executive who has been the CEO of Microsoft since 2014 [2][3]. He has led major projects, including the company's move to cloud computing [1]. Nadella has been instrumental in making Microsoft relevant again [7]. He has a strong educational background in electrical engineering and computer science [2][8].
+Satya Nadella is a business executive who has been the CEO of Microsoft since 2014 [4]. He has been instrumental in driving the company's innovation and partnerships [2]. Nadella has also been recognized for his leadership and has been featured in various publications, including Forbes [5]. He has an estimated net worth of at least $855.3 million [6].
 
 ## Basic Details
-- Full name: Satya Narayana Nadella [14]
-- Nationality: Indian [2]
-- Current role / occupation: Chairman and CEO of Microsoft [3]
-- Industry: Technology [1]
-- Current City: Not publicly available
-- Current Country: Not publicly available
+- Full name: Not publicly available
+- Nationality: Indian [19]
+- Current role / occupation: CEO of Microsoft [4]
+- Industry: Technology [2]
+- Current City: Clyde Hill [14]
+- Current Country: United States [14]
 
 ## Biography / Summary
-Satya Nadella was born in Hyderabad, India in 1967 [2][14]. His father was a civil servant and his mother was a professor of Sanskrit [14]. He wanted to be a professional cricket player from a young age [14].
+Satya Nadella was born in Hyderabad, India [19] and grew up in the same city [11]. He attended the Hyderabad Public School [11] and later earned a bachelor's degree in electrical engineering from the Manipal Institute of Technology [11] or Mangalore University [18][19].
 
 ## Career Timeline
-* 1992: Joined Microsoft [4]
-* 2014: Became CEO of Microsoft [2][3][4]
-* Led major projects, including the company's move to cloud computing [1]
+* 1992: Joined Microsoft [13]
+* 2014: Became CEO of Microsoft [4]
+* 2016: Spoke at Microsoft Ignite [2]
 
 ## Education
-- Bachelor's degree in electrical engineering from the Manipal Institute of Technology in 1988 [2][8][9][15]
-- MS in computer science from the University of Wisconsin–Milwaukee in 1990 [8][10][15]
-- MBA from the University of Chicago Booth School of Business in 1997 [11][15]
+- Bachelor's degree in electrical engineering from the Manipal Institute of Technology [11] or Mangalore University [18][19]
+- Master's degree in computer science from the University of Wisconsin–Milwaukee [17][18]
+- MBA from the University of Chicago Booth School of Business [17]
 
 ## Interests
-Not publicly available
+His favorite programming language is Python [1].
 
 ## Net Worth
-- $1.1 billion as of December 29, 2025 [6]
-- $300 million in 2019 [7]
+Estimated net worth of at least $855.3 million [6], with some sources estimating it to be around $1.4 billion [7] or at least $403.48 million [8].
 
 ## Recent News or Public Activities
-- Predicts 2026 as pivotal for AI, urging focus on real-world impact and responsible deployment [18][19][20]
+Nadella believes 2026 will mark a pivotal moment for AI [21][22][23] and has been featured in various news articles and publications [20][21][22].
 
 ## References
-1. https://en.wikipedia.org/wiki/Satya_Nadella
-2. https://www.britannica.com/money/Satya-Nadella
-3. https://news.microsoft.com/source/exec/satya-nadella/
-4. https://startuptalky.com/satya-nadela-ceo-microsoft/
+1. https://en.wikipedia.org/wiki/Monte_Davidoff
+2. https://news.microsoft.com/speeches/scott-guthrie-julia-white-satya-nadella-and-yusuf-mehdi-microsoft-ignite-2016/
+3. https://www.shwetankeducation.com/er-shwetank-kumar-gupta-biography/
+4. https://blog.wuyuansheng.com/tag/leadership/
 5. https://www.forbes.com/profile/satya-nadella/
-6. https://www.indiatoday.in/business/story/jayshree-ullal-richest-indian-origin-ceo-hurun-india-rich-list-2025-satya-nadella-microsoft-sunder-pichai-google-2843135-2025-12-29
-7. https://www.reddit.com/r/wallstreetbets/comments/an2les/satya_nadella_made_microsoft_relevant_again_so/
-8. https://en.m.wikipedia.org/wiki/Satya_Nadella
+6. https://www.quiverquant.com/insiders/1513142/Satya-Nadella
+7. https://www.thestreet.com/personal-finance/satya-nadella-net-worth
+8. https://www.insidertrades.com/microsoft-co-stock/satya-nadella/
 9. https://scholarshive.com/where-did-satya-nadella-go-to-college/
-10. https://www.linkedin.com/posts/hellovidya_satya-nadella-went-to-a-tier-3-college-in-activity-7336614769853874176-btrp
-11. https://wheredidcollege.com/where-did-satya-nadella-go-to-college/
-12. https://www.cnbc.com/satya-nadella/
-13. https://www.educba.com/satya-nadella-biography/
-14. https://www.businessinsider.com/microsoft-ceo-satya-nadella-career-rise
-15. https://populartimelines.com/timeline/Satya-Nadella/early-life-education
-16. https://infogram.com/timeline-of-satya-nadellas-education-and-early-career-1h7v4pd95j9m84k
-17. https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvS0wyMHZNSEUwTUhocWFoSUNaVzRvQUFQAQ?hl=en-US&gl=US&ceid=US:en
-18. https://www.financialexpress.com/about/satya-nadella/
-19. https://www.newsnow.com/us/US/Satya+Nadella
-20. https://www.news18.com/topics/satya-nadella/
+10. https://www.careerindia.com/features/educational-qualification-of-satya-nadella-047239.html
+11. https://golden.com/wiki/Satya_Nadella-RJ9YY6
+12. https://www.momsrising.org/blog/do-colleges-support-the-satya-nadella-effect
+13. https://en.wikipedia.org/wiki/Satya_Nadella
+14. https://www.urbansplatter.com/2023/03/satya-nadella-house-the-clyde-hill-villa/
+15. https://www.archidust.com/blog/2026/02/07/satya-nadella-house-a-peek-inside-the-microsoft-ceos-residence/
+16. https://www.financialexpress.com/life/lifestyle-inside-satya-nadellas-3-5-million-glass-house-in-seattle-with-jacuzzi-and-a-2-storey-library-4136617/
+17. https://populartimelines.com/timeline/Satya-Nadella/early-life-education
+18. https://infogram.com/timeline-of-satya-nadellas-education-and-early-career-1h7v4pd95j9m84k
+19. https://www.britannica.com/money/Satya-Nadella
+20. https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvS0wyMHZNSEUwTUhocWFoSUNaVzRvQUFQAQ?hl=en-US&gl=US&ceid=US:en
+21. https://www.financialexpress.com/about/satya-nadella/
+22. https://www.newsnow.com/us/US/Satya+Nadella
+23. https://www.news18.com/topics/satya-nadella/
