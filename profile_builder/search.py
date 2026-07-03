@@ -1,8 +1,3 @@
-# Wikipedia + DuckDuckGo, no API keys needed for either.
-# Everything ends up as one flat list of numbered sources that gets
-# passed to the LLM later, so it can cite what it's looking at instead
-# of just making stuff up.
-
 import requests
 from ddgs import DDGS
 
@@ -90,6 +85,8 @@ def gather_sources(name: str, context: str) -> list[dict]:
     queries = [
         f"{name} {context} biography",
         f"{name} net worth",
+        f"{name} university degree college",
+        f"{name} lives in current residence city",
         f"{name} education career timeline",
         f"{name} news 2026",
     ]

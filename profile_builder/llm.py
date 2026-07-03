@@ -1,9 +1,4 @@
-# Turns the numbered source list from search.py into the actual profile.
-# Using Groq's free Llama 3.3 70B endpoint here — OpenAI-compatible API,
-# so the request format below will look familiar if you've used the
-# openai package before.
-
-import os
+#import os
 import json
 import requests
 

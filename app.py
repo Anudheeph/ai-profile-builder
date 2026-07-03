@@ -1,5 +1,3 @@
-# Streamlit UI for the profile builder. Run with: streamlit run app.py
-
 import streamlit as st
 from dotenv import load_dotenv
 
@@ -14,8 +12,8 @@ st.title("AI-Powered Profile Builder")
 st.caption("Name + context in, structured profile with sources out. Won't invent facts it can't find.")
 
 with st.form("profile_form"):
-    name = st.text_input("Name", placeholder="Satya Nadella")
-    context = st.text_input("Context", placeholder="CEO of Microsoft")
+    name = st.text_input("Name", placeholder="Enter the name")
+    context = st.text_input("Context", placeholder="Enter the context")
     submitted = st.form_submit_button("Generate Profile")
 
 if submitted:
