@@ -5,10 +5,6 @@ import requests
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
-# The whole point of this prompt is to stop the model from just answering
-# from its own training data about famous people, which defeats the
-# purpose of doing the search step at all. So it's told, repeatedly and
-# explicitly, to only use what's in front of it.
 SYSTEM_PROMPT = """You are a research assistant that builds structured public \
 profiles of well-known people using ONLY the numbered source excerpts you are \
 given. You must never use prior/training knowledge to fill in facts.
@@ -82,8 +78,6 @@ def generate_profile(name: str, context: str, sources: list[dict]) -> str:
         )
 
     if not sources:
-        # didn't find anything at all for this person — don't even bother
-        # calling the model, just say so
         return (
             f"# {name}\n_{context}_\n\nNo public sources could be found for "
             "this person. Not publicly available for all fields."
@@ -106,10 +100,7 @@ def generate_profile(name: str, context: str, sources: list[dict]) -> str:
     resp.raise_for_status()
     data = resp.json()
     profile_md = data["choices"][0]["message"]["content"]
-
-    # belt and suspenders — if the model forgets the references section
-    # (it shouldn't, but LLMs skip instructions sometimes), append one
-    # ourselves so the output always has a working reference list
+    
     refs = "\n".join(f"{s['id']}. [{s['title']}]({s['url']})" for s in sources)
     if "## References" not in profile_md:
         profile_md += f"\n\n## References\n{refs}\n"
